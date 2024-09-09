@@ -139,7 +139,7 @@ class CatsAPI {
   console.log('                  AIRDROP ASC                        '.green);
   console.log('====================================================='.green);
   console.log('  	  Bot : Cats Gang Auto	                          '.green);
-  console.log('  	  Telegram Channel : @airdropasc		              '.green);
+  console.log('  	  Telegram Channel : @airdropasc                  '.green);
   console.log('  	  Telegram Group : @autosultan_group	            '.green);
   console.log('====================================================='.green);
   console.log();
