@@ -146,7 +146,7 @@ class CatsAPI {
 
 
         
-        console.log(`\n[ Account ${no + 1} ]`.cyan.bold);
+        console.log(`\n[ Account ${no + 1} ]`.red.bold);
 
         try {
           await this.createUser(authorization, referralCode);
