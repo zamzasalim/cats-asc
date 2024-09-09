@@ -135,11 +135,13 @@ class CatsAPI {
 
 
  process.stdout.write('\x1Bc');
-  console.log('========================================'.cyan);
-  console.log('=       🚀 Fintopio Airdrop Bot 🚀     ='.cyan);
-  console.log('=     Created by HappyCuanAirdrop      ='.cyan);
-  console.log('=    https://t.me/HappyCuanAirdrop     ='.cyan);
-  console.log('========================================'.cyan);
+  console.log('====================================================='.green);
+  console.log('                  AIRDROP ASC                        '.green);
+  console.log('====================================================='.green);
+  console.log('  	      Bot : Blum Auto				                      '.green);
+  console.log('  	      Telegram Channel : @airdropasc		          '.green);
+  console.log('  	      Telegram Group : @autosultan_group	        '.green);
+  console.log('====================================================='.green);
   console.log();
 
 
