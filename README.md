@@ -1,5 +1,36 @@
 # Cats-BOT Automation Script
 
+
+### Auto Install 
+
+
+git clone https://github.com/zamzasalim/cats-asc.git
+
+cd Cats-BOT
+
+```bash
+npm install
+```
+
+### Edit data
+```
+nano data.txt
+```
+
+### Run
+```
+node main.js
+```
+
+
+
+
+
+
+
+
+
+### PUNYA ORANG 
 ## Overview
 
 This Node.js script automates interactions with the CatsAPI, a platform for managing cat-related tasks and rewards. It handles user creation, task completion, and balance tracking for multiple accounts.
@@ -48,28 +79,5 @@ The script will:
 4. Display individual and total balances
 5. Wait for 6 hours before the next cycle
 
-## Registration
 
-To register a new account, use the following link:
 
-[Register for Cats](t.me/catsgang_bot/join?startapp=EYaJVrD1RDRT3Epa2iJkn)
-
-After registration, add your authorization token to the `data.txt` file.
-
-## Important Notes
-
-- This script is designed to run continuously. Use Ctrl+C to stop execution.
-- Ensure you comply with the CatsAPI terms of service when using this automation script.
-- The script includes error handling, but monitor its execution for any unexpected behavior.
-
-## Disclaimer
-
-This script is provided for educational purposes only. Use it responsibly and in accordance with the CatsAPI's terms of service.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
