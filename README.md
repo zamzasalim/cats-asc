@@ -14,7 +14,7 @@ git clone https://github.com/zamzasalim/cats-asc.git
 
 
 ```
-cd Cats-BOT
+cd cats-asc
 ```
 
 
