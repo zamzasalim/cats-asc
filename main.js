@@ -3,8 +3,6 @@ const axios = require("axios");
 const colors = require("colors");
 const readline = require("readline");
 
-
-
 class CatsAPI {
   constructor() {
     this.baseURL = "https://cats-backend-cxblew-prod.up.railway.app";
