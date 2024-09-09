@@ -2,7 +2,7 @@ const fs = require("fs");
 const axios = require("axios");
 const colors = require("colors");
 const readline = require("readline");
-const hijau = Fore.LIGHTGREEN_EX
+const hijau = Fore.LIGHTGREEN_EX;
 
 
   banner = f"""
