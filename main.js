@@ -29,15 +29,6 @@ class CatsAPI {
     };
   }
 
- process.stdout.write('\x1Bc');
-  console.log('========================================'.cyan);
-  console.log('=       🚀 Fintopio Airdrop Bot 🚀     ='.cyan);
-  console.log('=     Created by HappyCuanAirdrop      ='.cyan);
-  console.log('=    https://t.me/HappyCuanAirdrop     ='.cyan);
-  console.log('========================================'.cyan);
-  console.log();
-}
-
   
   async createUser(authorization, referralCode) {
     const url = `${this.baseURL}/user/create?referral_code=${referralCode}`;
@@ -142,6 +133,17 @@ class CatsAPI {
       for (let no = 0; no < data.length; no++) {
         const authorization = data[no];
 
+
+ process.stdout.write('\x1Bc');
+  console.log('========================================'.cyan);
+  console.log('=       🚀 Fintopio Airdrop Bot 🚀     ='.cyan);
+  console.log('=     Created by HappyCuanAirdrop      ='.cyan);
+  console.log('=    https://t.me/HappyCuanAirdrop     ='.cyan);
+  console.log('========================================'.cyan);
+  console.log();
+}
+
+        
         console.log(`\n[ Account ${no + 1} ]`.cyan.bold);
 
         try {
