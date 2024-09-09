@@ -164,7 +164,7 @@ class CatsAPI {
         console.log();
       }
 
-      this.displaySummary();
+     
       await this.waitWithCountdown(7 * 60 * 60); // 7 hours in seconds
     }
   }
