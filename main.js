@@ -16,9 +16,6 @@ echo -e '\e[35mTelegram Group :\e[35m' @autosultan_group
 echo "====================================================="
 echo -e "\e[0m"
 
-time.sleep(5)
-    action = 3
-
 class CatsAPI {
   constructor() {
     this.baseURL = "https://cats-backend-cxblew-prod.up.railway.app";
@@ -183,3 +180,6 @@ if (require.main === module) {
     process.exit(1);
   });
 }
+
+if __name__ == '__main__':
+    asyncio.get_event_loop().run_until_complete(main())
