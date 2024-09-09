@@ -3,10 +3,16 @@
 
 ### Auto Install 
 
-
+```
 git clone https://github.com/zamzasalim/cats-asc.git
+```
 
+
+```
 cd Cats-BOT
+```
+
+
 
 ```bash
 npm install
