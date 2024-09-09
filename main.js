@@ -61,7 +61,7 @@ class CatsAPI {
       console.log("Daily login: Done".green);
       console.log("Task:");
       for (const task of allTasks) {
-        const status = task.completed ? "Done" : "Pending".yellow;
+        const status = task.completed ? "Done" : "Pending";
         console.log(`     ‣ ${task.title}: ${status}`.yellow);
         if (!task.completed) {
           try {
