@@ -14,9 +14,9 @@ class CatsAPI {
  console.log("Task:"
 
 
-echo -e "\033[0;35m"
-echo "====================================================="
-echo "                  AIRDROP ASC                        "
+print -e "\033[0;35m"
+print "====================================================="
+print "                  AIRDROP ASC                        "
 echo "====================================================="
 echo -e '\e[35mNode :\e[35m' CATS
 echo -e '\e[35mTelegram Channel :\e[35m' @airdropasc
@@ -24,10 +24,7 @@ echo -e '\e[35mTelegram Group :\e[35m' @autosultan_group
 echo "====================================================="
 echo -e "\e[0m"
    
-    
-    time.sleep(5)
-    action = 1
-
+ 
   );
 
 
