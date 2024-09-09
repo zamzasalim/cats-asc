@@ -62,7 +62,7 @@ class CatsAPI {
       console.log("Task:");
       for (const task of allTasks) {
         const status = task.completed ? "Done" : "Pending";
-        console.log(`     ‣ ${task.title}: ${status}`.yellow);
+        console.log(`     ‣ ${task.title}: ${status}`.green);
         if (!task.completed) {
           try {
             await this.completeTask(authorization, task.id);
