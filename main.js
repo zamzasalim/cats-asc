@@ -138,9 +138,9 @@ class CatsAPI {
   console.log('====================================================='.green);
   console.log('                  AIRDROP ASC                        '.green);
   console.log('====================================================='.green);
-  console.log('  	      Bot : Blum Auto				                      '.green);
-  console.log('  	      Telegram Channel : @airdropasc		          '.green);
-  console.log('  	      Telegram Group : @autosultan_group	        '.green);
+  console.log('  	  Bot : Blum Auto				                          '.green);
+  console.log('  	  Telegram Channel : @airdropasc		              '.green);
+  console.log('  	  Telegram Group : @autosultan_group	            '.green);
   console.log('====================================================='.green);
   console.log();
 
