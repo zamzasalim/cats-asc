@@ -2,19 +2,8 @@ const fs = require("fs");
 const axios = require("axios");
 const colors = require("colors");
 const readline = require("readline");
-const hijau = require("hijau");
 
 
-async def main():
-echo -e "\033[0;35m"
-echo "====================================================="
-echo "                  AIRDROP ASC                        "
-echo "====================================================="
-echo -e '\e[35mNode :\e[35m' CATS
-echo -e '\e[35mTelegram Channel :\e[35m' @airdropasc
-echo -e '\e[35mTelegram Group :\e[35m' @autosultan_group
-echo "====================================================="
-echo -e "\e[0m"
 
 class CatsAPI {
   constructor() {
@@ -181,5 +170,3 @@ if (require.main === module) {
   });
 }
 
-if __name__ == '__main__':
-    asyncio.get_event_loop().run_until_complete(main())
