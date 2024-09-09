@@ -141,7 +141,7 @@ class CatsAPI {
   console.log('=    https://t.me/HappyCuanAirdrop     ='.cyan);
   console.log('========================================'.cyan);
   console.log();
-}
+
 
         
         console.log(`\n[ Account ${no + 1} ]`.cyan.bold);
