@@ -5,17 +5,19 @@ const readline = require("readline");
 const hijau = require("hijau");
 
 
-  banner = f"""
-    {hijau}=====================================================
-    {hijau}                  AIRDROP ASC                        
-    {hijau}=====================================================
-    {hijau}        Bot : Blum Auto
-    {hijau}        Telegram Channel : @airdropasc
-    {hijau}        Telegram Group : @autosultan_group
-    {hijau}=====================================================
-        """
+async def main():
+echo -e "\033[0;35m"
+echo "====================================================="
+echo "                  AIRDROP ASC                        "
+echo "====================================================="
+echo -e '\e[35mNode :\e[35m' CATS
+echo -e '\e[35mTelegram Channel :\e[35m' @airdropasc
+echo -e '\e[35mTelegram Group :\e[35m' @autosultan_group
+echo "====================================================="
+echo -e "\e[0m"
 
-
+time.sleep(5)
+    action = 3
 
 class CatsAPI {
   constructor() {
