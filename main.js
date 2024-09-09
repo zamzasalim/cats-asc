@@ -2,6 +2,20 @@ const fs = require("fs");
 const axios = require("axios");
 const colors = require("colors");
 const readline = require("readline");
+const hijau = Fore.LIGHTGREEN_EX
+
+
+  banner = f"""
+    {hijau}=====================================================
+    {hijau}                  AIRDROP ASC                        
+    {hijau}=====================================================
+    {hijau}        Bot : Blum Auto
+    {hijau}        Telegram Channel : @airdropasc
+    {hijau}        Telegram Group : @autosultan_group
+    {hijau}=====================================================
+        """
+
+
 
 class CatsAPI {
   constructor() {
@@ -26,7 +40,7 @@ class CatsAPI {
         "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36",
     };
   }
-
+  print(banner)
   async createUser(authorization, referralCode) {
     const url = `${this.baseURL}/user/create?referral_code=${referralCode}`;
     const headers = this.headers(authorization);
