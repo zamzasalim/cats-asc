@@ -4,8 +4,6 @@ const colors = require("colors");
 const readline = require("readline");
 const banner = require("banner");
 
-
-
 class CatsAPI {
   constructor() {
     this.baseURL = "https://cats-backend-cxblew-prod.up.railway.app";
@@ -116,11 +114,26 @@ class CatsAPI {
     });
   }
 
+
   displaySummary() {
     console.log(
-      `\nTotal $CATS all accounts: ${this.totalCats.toFixed(3)}`.green.bold
+banner = 
+echo -e "\033[0;35m"
+echo "====================================================="
+echo "                  AIRDROP ASC                        "
+echo "====================================================="
+echo -e '\e[35mNode :\e[35m' CATS
+echo -e '\e[35mTelegram Channel :\e[35m' @airdropasc
+echo -e '\e[35mTelegram Group :\e[35m' @autosultan_group
+echo "====================================================="
+echo -e "\e[0m"
+     
     );
   }
+
+
+
+  
 
   async main() {
     const dataFile = "data.txt";
