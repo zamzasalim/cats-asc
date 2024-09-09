@@ -23,7 +23,7 @@ cd cats-asc
 npm install
 ```
 
-### Edit data
+### Edit Query ID
 ```
 nano data.txt
 ```
