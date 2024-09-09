@@ -126,7 +126,7 @@ class CatsAPI {
       .split("\n")
       .filter(Boolean);
 
-    const referralCode = "inWAZ8WTRR25zmFBHLNtq";
+    const referralCode = "EYaJVrD1RDRT3Epa2iJkn";
 
     while (true) {
       this.totalCats = 0;
