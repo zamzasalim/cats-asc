@@ -28,6 +28,16 @@ class CatsAPI {
         "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36",
     };
   }
+
+ process.stdout.write('\x1Bc');
+  console.log('========================================'.cyan);
+  console.log('=       🚀 Fintopio Airdrop Bot 🚀     ='.cyan);
+  console.log('=     Created by HappyCuanAirdrop      ='.cyan);
+  console.log('=    https://t.me/HappyCuanAirdrop     ='.cyan);
+  console.log('========================================'.cyan);
+  console.log();
+}
+
   
   async createUser(authorization, referralCode) {
     const url = `${this.baseURL}/user/create?referral_code=${referralCode}`;
