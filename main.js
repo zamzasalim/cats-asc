@@ -11,9 +11,8 @@ class CatsAPI {
   }
 
 
+ console.log("Task:"
 
-displaySummary() {
-    console.log(
 
 echo -e "\033[0;35m"
 echo "====================================================="
@@ -29,9 +28,8 @@ echo -e "\e[0m"
     time.sleep(5)
     action = 1
 
-    
-    );
-  }
+  );
+
 
   
   headers(authorization) {
